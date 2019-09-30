@@ -1,0 +1,4 @@
+sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+sudo chmod g+rwx "/home/$USER/.docker" -R
+
+# this is a few ways to avoid errors "permission denied"
